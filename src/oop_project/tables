@@ -1,0 +1,16 @@
+Create table driver(
+S_No int,
+Name char(20) not null,
+Car_No varchar(20) primary key,
+Car_Model char(20),
+Rating double,
+Location int,
+Availability bool
+);
+
+create table login
+(
+username char(20) primary key,
+password varchar(20) not null,
+Wallet_Money int
+);
